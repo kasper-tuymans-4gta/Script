@@ -1,0 +1,57 @@
+body {
+    background-color: rgb(115, 0, 150);
+    color: rgb(0, 0, 0);
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif
+}
+header {
+    color: rgb(255, 230, 0);
+    text-align: center;
+    
+    background-size: cover;
+    background-position: center;
+}
+nav li {
+    display: inline-block;
+}
+nav a{
+    display: block;
+    padding: 20px;
+}
+nav {
+    background-color:rgb(115, 0, 150);
+}
+nav a:hover{
+    display: block;
+    color: rgb(255, 230, 0);
+    background-color: aliceblue;
+}
+a {
+    color: rgb(0, 0, 0);
+}
+li {
+    display: inline-block;
+}
+#home {
+    background-color: pink;
+    padding: 5px;
+}
+#tour {
+    background-color: pink;
+    padding: 5px;
+}
+#merch {
+    background-color:pink;
+    padding: 5px;
+}
+
+#favorite {
+    background-color: pink;
+    padding: 5px;
+}
+main {
+    padding: 15px;
+}
+footer {
+    color: pink;
+}
