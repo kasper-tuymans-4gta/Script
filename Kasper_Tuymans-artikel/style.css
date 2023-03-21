@@ -1,0 +1,37 @@
+<style>
+  header {
+    background-color: lightblue;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  h1 {
+    color: white;
+  }
+  
+  main {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .col {
+    width: 45%;
+  }
+  
+  h2 {
+    color: gray;
+  }
+  
+  footer {
+    background-color: lightblue;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  a {
+    color: white;
+  }
+</style>
+
+
