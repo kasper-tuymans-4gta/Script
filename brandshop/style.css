@@ -42,14 +42,14 @@ header i {
     width: 20px;
 }
 header i:hover {
-   color: rgb(255, 255, 255);
+   color: rgb(255, 0, 0);
 }
 header nav li a {
     color: rgb(255, 255, 255);
     padding: 5px;
 }
 header nav li a:hover{
-    color: rgb(0, 0, 0);
+    color: rgb(255, 0, 0);
 }
 
 main {
