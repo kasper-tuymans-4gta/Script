@@ -66,3 +66,12 @@ footer {
 section {
     margin-bottom: 4rem;
 }
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.flex-item {
+    flex: 0,5;
+}
