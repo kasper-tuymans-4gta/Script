@@ -1,77 +1,83 @@
 * {
- margin: 0%;
- padding: 0%;
- box-sizing: border-box;
-}
-
-body {
-    background-color: rgb(255, 255, 255);
-    font-family: "sans serfi";
-
-}
-
-header {
-    background-color: rgb(0, 0, 0);
-    padding: 10px
-}
-
-.flex-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 3rem;
-}
- 
-
-
-header nav li {
-    display: inline;
-}
-
-img {
-    width: 100px;
-}
-
-header input {
-    margin-left: 10px;
-padding: 4px 10px;
-border-radius: 20px;
-width: 100px;}
-
-header i {
-    width: 20px;
-}
-header i:hover {
-   color: rgb(255, 0, 0);
-}
-header nav li a {
-    color: rgb(255, 255, 255);
-    padding: 5px;
-}
-header nav li a:hover{
-    color: rgb(255, 0, 0);
-}
-
-main {
-    padding: 20px;
-}
-
-video {
-    width: 100%;
-}
-footer {
-    padding: 20px;
-}
-
-section {
-    margin-bottom: 4rem;
-}
-.flex-container {
-    display: flex;
-    justify-content: space-between;
-    gap: 2rem;
-}
-
-.flex-item {
-    flex: 0,5;
-}
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+   }
+   
+   body {
+       background-color: rgb(255, 255, 255);
+       font-family: "sans serfi";
+   
+   }
+   
+   header {
+       background-color: rgb(0, 0, 0);
+       padding: 10px
+   }
+   
+   .flex-container {
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       gap: 3rem;
+   }
+    
+   
+   
+   header nav li {
+       display: inline;
+   }
+   
+   header img {
+       width: 100px;
+   }
+   
+   header input {
+       margin-left: 10px;
+   padding: 4px 10px;
+   border-radius: 20px;
+   width: 100px;}
+   
+   header i {
+       width: 20px;
+   }
+   header i:hover {
+      color: rgb(255, 0, 0);
+   }
+   header nav li a {
+       color: rgb(255, 255, 255);
+       padding: 5px;
+   }
+   header nav li a:hover{
+       color: rgb(255, 0, 0);
+   }
+   
+   main {
+       padding: 20px;
+   }
+   
+   video {
+       width: 100%;
+   }
+   footer {
+       padding: 20px;
+   }
+   
+   section {
+       margin-bottom: 4rem;
+   }
+   .flex-container {
+       display: flex;
+       justify-content: space-between;
+       gap: 2rem;
+   }
+   
+   .flex-item {
+       flex: 1;
+   }
+   #featured img{
+       display: block;
+       width: 25%;
+       aspect-ratio: 5/6;
+       object-fit: cover;
+   }
