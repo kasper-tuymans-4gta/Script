@@ -61,6 +61,8 @@
    }
    footer {
        padding: 20px;
+       background-color: black;
+       color: white;
    }
    
    section {
@@ -80,8 +82,4 @@
        width: 25%;
        aspect-ratio: 5/6;
        object-fit: cover;
-   }
-   footer{
-    background-color: black;
-    color: white;
    }
