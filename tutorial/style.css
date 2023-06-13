@@ -34,7 +34,7 @@ header img {
     --txt-01: hsl(0, 0%, 90%);
 }
 
-{
+*{
   margin: 0;
   box-sizing: border-box;
   padding: 0;
