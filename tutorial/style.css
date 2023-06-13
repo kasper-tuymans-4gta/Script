@@ -3,7 +3,7 @@ header {
     grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
     align-items: end;
-    background-color: red;
+    background-color: rgb(68, 0, 255);
     align-items: center;
     padding: 2rem;
 }
@@ -15,7 +15,7 @@ display: flex;
 align-items: centerwq;
 }
 a {
-    color: rgb(35, 89, 86);
+    color: rgb(0, 0, 0);
 }
 
 header img {
@@ -29,7 +29,7 @@ header img {
 @import url("https://use.typekit.net/hfi1kak.css%22");
 
 :root {
-    --bgc-01: hsl(0, 0%, 02%);
+    --bgc-01: hsl(0, 100%, 50%);
     --bgc-02: hsl(0, 0%, 08%);
     --txt-01: hsl(0, 0%, 90%);
 }
@@ -41,7 +41,7 @@ header img {
 }
 
 body {
-    background-color:lightgreen;
+    background-color:rgb(136, 2, 102);
     color: var(--txt-01);
     font-family: "owners-wide", sans-serif;
     line-height: 1;
